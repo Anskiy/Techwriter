@@ -4,9 +4,9 @@ Version: 1.0
 
 Date: May 19, 2020
 
-URL: 
+URL: https://github.com/Anskiy/Techwriter
 
-Contact: Anskiy#7745
+Contact: Anskiy#7745 on Discord
          
 Email:   cecilraster475@gmail.com
 
