@@ -320,7 +320,7 @@ def rewrite_combo_techs():
     #Spire
     outfile.seek(combo_tech_address)
     outfile.write(st.pack("B",new_ids["leapslash"]))
-    outfile.seek(combo_tech_address)
+    outfile.seek(combo_tech_address+1)
     outfile.write(st.pack("B",new_ids["lightning2"]))
     combo_tech_address += 11
     #Drill Kick
