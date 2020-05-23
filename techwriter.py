@@ -491,7 +491,7 @@ def rewrite_combo_techs():
     #Drop Kick
     outfile.seek(combo_tech_address)
     outfile.write(st.pack("B",new_ids["leapslash"]))
-    outfile.seek(combo_tech_address+1)
+    combo_tech_address += 11
     #See Blaze Kick
     #Red Pin
     outfile.seek(combo_tech_address)
