@@ -644,4 +644,13 @@ for character in chars:
     randomize_tech_order(character)
 rewrite_menu_techs()
 rewrite_combo_techs()
+#Hack to remove Nizbel and Nizbel II's checks for Slash slot
+outfile.seek(0xCAABD)
+outfile.write(st.pack("B",0))
+outfile.seek(0xCAABF)
+outfile.write(st.pack("B",0))
+outfile.seek(0xCAB38)
+outfile.write(st.pack("B",0))
+outfile.seek(0xCAB3A)
+outfile.write(st.pack("B",0))
 outfile.close()
